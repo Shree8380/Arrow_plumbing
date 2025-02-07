@@ -1,0 +1,237 @@
+.custom-card {
+   max-width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+.card-body {
+    padding: 15px;
+    font-size: 12px;
+}
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: white;
+    border-top: 1px solid #ddd;
+}
+.card-img {
+   
+    object-fit: cover;
+}
+.icon-text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+}
+.icon-text a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.icon-text i {
+    font-size: 18px;
+    color: gray;
+}
+.read-more {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+/* navbar section */
+
+/* Navbar text color in desktop view */
+.navbar-nav .nav-link {
+    color: white !important;
+  }
+  
+
+/* Change text color in mobile view when the navbar is collapsed */
+@media (max-width: 991px) {  /* 991px is Bootstrap's breakpoint for lg */
+    .navbar-nav .nav-link {
+      color: black !important;
+    }
+  }
+   
+@media (max-width: 991px) {
+    .navbar-collapse.show .nav-link {
+      color: rgb(0, 0, 0) !important;
+    }
+  }
+
+
+.request-btn1
+{
+    color: rgb(0, 0, 0);
+    background-color: #dda733;
+    font-weight: 800;
+    border-radius: 50px;
+    padding: 5px 20px;
+    font-size: small;
+}
+.request-btn2
+{
+    color: white;
+    background-color: #C20F2F;
+    font-weight: 800;
+    border-radius: 50px;
+    padding: 5px 20px;
+    font-size: small;
+}
+
+/* hero section  */
+.bgarrow
+{
+    background-image: url('../images/Arrow_services_bg.png');
+  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.request-btn
+{
+    background-color:#646464;
+    font-weight: 700;
+    border-radius: 50px;
+    padding: 20px 60px;
+}
+
+
+
+/* About Section  */
+
+.about-btn
+{
+    background-color: #C20F2F;
+    color: white;
+    font-weight: 700;
+    padding: 5px 40px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+/* Our Srevices  */
+
+.bg-rectangle
+{
+    background-image: url('../images/bg-Rectangl.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.borderr
+{
+    @media screen and (max-width: 991px)
+    {
+        border: none!important;
+        
+    }
+}
+
+
+/* Call US section  */
+.callus
+{
+    position: relative;
+    top: -50px;
+}
+
+.call
+{
+    background-color: #C20F2F;
+    color: white;
+    font-weight: 700;
+    padding: 2px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    position: relative;
+    top: 70px;
+}
+
+.nav-link{
+    color: white;
+}
+
+@media screen and (max-width: 991px)
+{
+    .rounded_top
+{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+    
+}
+
+@media screen and (min-width: 992px)
+{
+    .rounded_left
+{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    
+}
+}
+
+@media screen and (min-width: 992px)
+{
+    .rounded_right
+{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+}
+}
+
+@media screen and (max-width: 991px)
+{
+    .rounded_bottom
+{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+}
+    
+}
+
+/* Easy Pay Financing   */
+
+.easy_pay_back
+{
+    background-image: url('../images/easy_pay_fincingbg.png');;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* Join Total Care Club  */
+
+.total_care_back
+{
+    background-image: url('../images/Rectangle\ 1628\ copy.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

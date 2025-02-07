@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        .custom-card {
+            width: 350px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            position: relative;
+            font-family: Arial, sans-serif;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background: white;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .card-body {
+            padding: 15px;
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background: white;
+            border-top: 1px solid #ddd;
+        }
+
+        .card-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .icon-text {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 14px;
+        }
+
+        .icon-text a {
+            text-decoration: none;
+            color: black;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .icon-text i {
+            font-size: 18px;
+            color: gray;
+        }
+
+        .read-more {
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="custom-card">
+
+        <!-- Card Header -->
+        <div class="card-header">
+            <a href="company-link.html">
+                <img src="images/company-logo.png" alt="Company Logo" width="50">
+            </a>
+            <a href="https://www.facebook.com">
+                <i class="fab fa-facebook fa-lg"></i>
+            </a>
+        </div>
+
+        <!-- Card Body -->
+        <div class="card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Vestibulum viverra massa nec purus efficitur.</p>
+            <p>Donec bibendum arcu eu nisl pharetra, ac molestie nulla.</p>
+            <a href="read-more.html" class="read-more">Read More</a>
+        </div>
+
+        <!-- Card Image -->
+        <img src="images/card-image.jpg" alt="Card Image" class="card-img">
+
+        <!-- Card Footer -->
+        <div class="card-footer">
+            <div class="icon-text">
+                <a href="favorites.html">
+                    <i class="fas fa-heart"></i> <span>12</span>
+                </a>
+                <a href="chat.html">
+                    <i class="fas fa-comment"></i> <span>5</span>
+                </a>
+            </div>
+            <div>
+                <a href="share.html">
+                    <i class="fas fa-share"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <section class="p-5 m-0 total_care_back">
+        <div class="container">
+    
+            <h2 class="text-center">JOIN THE Total <SPAN style="color: RED;">CARE</SPAN> CLUB</h2>
+    
+            <p class="p-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestias
+                minus doloribus neque eum placeat molestiae in, temporibus consequatur. Tenetur aspernatur odit,
+                explicabo necessitatibus recusandae consectetur veniam totam laudantium qui!</p>
+    
+            <div class="row">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide offset-lg-1 col-lg-3 carousel-item p-4 me-3" style="background-color: red;">
+                            <img class="py-3 d-flex text-center mx-auto" src="images/inspecting.png" width="150" alt="">
+                            <h5 class="py-3 text-center"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b></h5>
+                            <h6 class="text-center"><b><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</i></b></h6>
+                        </div>
+                        <div class="swiper-slide col-lg-3 carousel-item p-4 me-3" style="background-color: red;">
+                            <img class="py-3 d-flex text-center mx-auto" src="images/Group 122.png" width="150" alt="">
+                            <h5 class="py-3 text-center"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b></h5>
+                            <h6 class="text-center"><b><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</i></b></h6>
+                        </div>
+                        <div class="swiper-slide col-lg-3 carousel-item p-4" style="background-color: red;">
+                            <img class="py-3 d-flex text-center mx-auto" src="images/sticker.png" width="150" alt="">
+                            <h5 class="py-3 text-center"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b></h5>
+                            <h6 class="text-center"><b><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</i></b></h6>
+                        </div>
+                    </div>
+                
+                    <!-- Navigation buttons -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                
+            </div>
+    
+            <h4 class="text-center pt-3 pb-2 px-4"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ratione.</b></h4>
+    
+            <button class="d-flex  mx-auto" style="top: 12px;position: relative; background:    #ed0e0e;
+            border-radius: 20px;
+            padding:       15px 25px;
+            color:         #ffffff;
+            display:       inline-block;
+            font:          normal  15px/1 Open Sans, sans-serif;
+            text-align:    center;border: none;"><img src="" alt=""> <b>Learn More & Apply Today</b></button>
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"
+    style="width: auto">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"
+    style="width: auto">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+    </button>
+    
+    <div class="carousel-indicators position-relative mt-2">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+    </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <script>
+        let customSwiperInstance; // Store Swiper instance
+
+function initCustomSwiper() {
+    if (window.innerWidth < 992) {
+        if (!customSwiperInstance) { // Initialize only if not already initialized
+            customSwiperInstance = new Swiper(".custom-swiper", {
+                loop: true,
+                slidesPerView: 1,
+                spaceBetween: 10,
+                breakpoints: {
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                },
+                navigation: {
+                    nextEl: ".custom-swiper-button-next",
+                    prevEl: ".custom-swiper-button-prev",
+                },
+            });
+        }
+    } else {
+        if (customSwiperInstance) { // Destroy Swiper if it exists
+            customSwiperInstance.destroy(true, true);
+            customSwiperInstance = null;
+        }
+    }
+}
+
+// Initialize on page load
+initCustomSwiper();
+
+// Re-check on window resize
+window.addEventListener("resize", initCustomSwiper);
+
+    </script>
+</body>
+
+</html>
+
